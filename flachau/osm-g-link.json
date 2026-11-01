@@ -1,0 +1,37 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-06T00:15:38Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 227817176,
+  "bounds": {
+    "minlat": 47.3233329,
+    "minlon": 13.2907161,
+    "maxlat": 47.3299093,
+    "maxlon": 13.3201526
+  },
+  "geometry": [
+    { "lat": 47.3299093, "lon": 13.3201526 },
+    { "lat": 47.3295428, "lon": 13.3184096 },
+    { "lat": 47.3236633, "lon": 13.2922434 },
+    { "lat": 47.3233329, "lon": 13.2907161 }
+  ],
+  "tags": {
+    "aerialway": "cable_car",
+    "aerialway:capacity": "1385",
+    "aerialway:duration": "4.5",
+    "aerialway:occupancy": "145",
+    "name": "G-Link Wagrain",
+    "oneway": "no",
+    "start_date": "2013"
+  }
+}
+
+  ]
+}
