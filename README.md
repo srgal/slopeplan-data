@@ -41,4 +41,4 @@ If you publicly use this database, a derivative of it, or a work produced from i
 "© OpenStreetMap contributors, OpenSkiData", keep it open under the ODbL, and offer any derivative database
 under the ODbL.
 
-Generated 2026-10-29 (app data as of SlopePlan main 8ce4719, 2026-11-01).
+Generated 2026-10-29 (app data as of SlopePlan main 50e40a4, 2026-11-02).
