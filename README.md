@@ -12,7 +12,7 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 | File | What it is |
 |---|---|
 | `<area>/terrain.json` | Ski-area graph: pistes (with piste numbers), lifts, connections, routing nodes, villages |
-| `<area>/pois.json` | Places near the pistes (restaurants, huts, hotels, services) |
+| `<area>/pois.json` | Places near the pistes (restaurants, huts, hotels, services, public toilets, first aid: defibrillators and mountain rescue) |
 | `flachau/osm-g-link.json` | The G-Link Wagrain lift's ride-down flag, taken from OpenStreetMap |
 
 ## Sources and attribution
