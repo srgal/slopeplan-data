@@ -5,9 +5,9 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 
 | Folder | Ski area | OpenSkiData snapshot | Pistes / lifts |
 |---|---|---|---|
-| `flachau/` | Snow Space Salzburg (Flachau · Wagrain · St. Johann-Alpendorf) | osd-2026.10.02 | 280 / 46 |
-| `mayrhofen/` | Mayrhofen (Penken · Ahorn · Horberg · Rastkogel · Eggalm) | osd-2026.10.10 | 456 / 44 |
-| `ischgl/` | Silvretta Arena Ischgl / Samnaun | osd-2026.10.22 | 466 / 45 |
+| `flachau/` | Snow Space Salzburg (Flachau · Wagrain · St. Johann-Alpendorf) and Shuttleberg Flachauwinkl-Kleinarl | osd-2026.11.10 | 391 / 57 |
+| `mayrhofen/` | Mayrhofen (Penken · Ahorn · Horberg · Rastkogel · Eggalm) | osd-2026.11.10 | 473 / 48 |
+| `ischgl/` | Silvretta Arena Ischgl / Samnaun | osd-2026.11.10 | 485 / 45 |
 
 | File | What it is |
 |---|---|
@@ -22,11 +22,14 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 
 ## How it was derived
 
-1. Pistes and lifts of each ski area were taken from the OpenSkiData export (runs and lifts GeoJSON).
+1. Pistes and lifts of each ski area were taken from the OpenSkiData export (runs and lifts GeoJSON), plus a few
+   features OpenSkiData places only in an umbrella area (e.g. the Panorama Link gondola), each checked in OpenStreetMap.
+   A piste is never easier than the `piste:difficulty` of any OpenStreetMap way it was made from (Overpass API).
 2. Runs and lifts were split at shared points into a directed graph. Pistes run downhill and lifts run uphill. Lift
    stations, piste ends and junctions became nodes. Elevations come from open terrain data.
 3. Village bases were attached to their nearest valley nodes. Short walking connections between nearby nodes that no
-   mapped way confirms are marked `verified: false` (and listed in `review`).
+   mapped way confirms are marked `verified: false` (and listed in `review`); a person may mark one verified with its
+   evidence (Flachau, 2026-11-10: two links, confirmed on the ground and on satellite imagery).
 4. Places were taken from OpenStreetMap (Overpass API) within the ski area and linked to the nearest piste node.
 
 Lift **status** and **operating hours** are not part of this database. The app uses published operating hours entered
@@ -41,4 +44,4 @@ If you publicly use this database, a derivative of it, or a work produced from i
 "© OpenStreetMap contributors, OpenSkiData", keep it open under the ODbL, and offer any derivative database
 under the ODbL.
 
-Generated 2026-10-29 (app data as of SlopePlan main b025d1d, 2026-11-02).
+Generated 2026-11-10 (app data as of SlopePlan main 51fc72c).
