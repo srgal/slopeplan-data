@@ -8,6 +8,7 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 | `flachau/` | Snow Space Salzburg (Flachau · Wagrain · St. Johann-Alpendorf) and Shuttleberg Flachauwinkl-Kleinarl | osd-2026.11.10 | 391 / 57 |
 | `mayrhofen/` | Mayrhofen (Penken · Ahorn · Horberg · Rastkogel · Eggalm) | osd-2026.11.10 | 473 / 48 |
 | `ischgl/` | Silvretta Arena Ischgl / Samnaun | osd-2026.11.10 | 485 / 45 |
+| `sella-ronda/` | Sella Ronda — the connected area of Val Gardena, Seiser Alm, Alta Badia, Arabba, Marmolada and Val di Fassa (Dolomiti Superski); downloadable in the app as a resort pack | osd-2026.11.11 | 1189 / 177 |
 
 | File | What it is |
 |---|---|
@@ -31,6 +32,9 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
    mapped way confirms are marked `verified: false` (and listed in `review`); a person may mark one verified with its
    evidence (Flachau, 2026-11-10: two links, confirmed on the ground and on satellite imagery).
 4. Places were taken from OpenStreetMap (Overpass API) within the ski area and linked to the nearest piste node.
+5. Sella Ronda only: the member areas' runs and lifts plus the Dolomiti Superski umbrella's features inside a box, keeping
+   the parts joined to Selva; OpenStreetMap `piste:type=connection` ways OpenSkiData leaves out (heights from Terrain
+   Tiles where the extract has none); flat pieces (<= 5 m, <= 400 m) skied both ways; summer / sledging lifts left out.
 
 Lift **status** and **operating hours** are not part of this database. The app uses published operating hours entered
 by hand (with their source and date), or labelled simulated data.
