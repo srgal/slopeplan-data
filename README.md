@@ -9,6 +9,7 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 | `mayrhofen/` | Mayrhofen (Penken · Ahorn · Horberg · Rastkogel · Eggalm) | osd-2026.11.10 | 473 / 48 |
 | `ischgl/` | Silvretta Arena Ischgl / Samnaun | osd-2026.11.10 | 485 / 45 |
 | `sella-ronda/` | Sella Ronda — the connected area of Val Gardena, Seiser Alm, Alta Badia, Arabba, Marmolada and Val di Fassa (Dolomiti Superski); downloadable in the app as a resort pack | osd-2026.11.11 | 1189 / 177 |
+| `st-anton/` | St. Anton am Arlberg — the connected Ski Arlberg area (St. Anton · St. Christoph · Stuben · Zürs · Lech · Warth-Schröcken); downloadable in the app as a resort pack | osd-2026.11.13 | 1017 / 84 |
 
 | File | What it is |
 |---|---|
