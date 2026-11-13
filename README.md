@@ -34,7 +34,8 @@ as required by the Open Database License (ODbL) 1.0, §4.6. It is updated with e
 4. Places were taken from OpenStreetMap (Overpass API) within the ski area and linked to the nearest piste node.
 5. Sella Ronda only: the member areas' runs and lifts plus the Dolomiti Superski umbrella's features inside a box, keeping
    the parts joined to Selva; OpenStreetMap `piste:type=connection` ways OpenSkiData leaves out (heights from Terrain
-   Tiles where the extract has none); flat pieces (<= 5 m, <= 400 m) skied both ways; summer / sledging lifts left out.
+   Tiles where the extract has none); flat pieces (<= 5 m, <= 400 m) skied both ways; summer / sledging lifts left out. A piste whose name matches one of
+   Dolomiti Superski's own slopes (Open Data Hub, CC0) nearby is made as hard as the operator's colour, never easier.
 
 Lift **status** and **operating hours** are not part of this database. The app uses published operating hours entered
 by hand (with their source and date), or labelled simulated data.
